@@ -1,0 +1,62 @@
+/* Estilo para el contenedor del círculo de la imagen */
+
+.image-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Ajusta el ancho deseado */
+    height: 300px; /* Ajusta la altura deseada */
+    /* border-radius: 50%; */
+     /* Convierte el contenedor en un círculo */
+    overflow: hidden; /* Oculta cualquier contenido que esté fuera del círculo */
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 10px rgba(39, 38, 38, 0.2);
+}
+
+/* Estilo para la imagen dentro del círculo */
+.circle-image {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente */
+}
+.hidden {
+    display: none;
+}
+/* Estilo para el contenedor del círculo de la imagen */
+.image-capture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Ajusta el ancho deseado */
+    height: 250px; /* Ajusta la altura deseada */
+    overflow: hidden; /* Oculta cualquier contenido que esté fuera del círculo */
+    margin: 0 auto; /* Centra horizontalmente */
+  
+    
+  }
+
+/* Estilo para la imagen dentro del círculo */
+.captured-image {
+    max-width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    max-height: 100%; /* La imagen ocupa toda la altura del contenedor */
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+}
+.image-capture #canvas {
+    max-width: 100%;
+    max-height: 100%;
+  
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 10px rgba(39, 38, 38, 0.2);
+}
+#fila-table {
+    margin-top: 21px;
+    text-align: center;
+}
+
+#fila-table td {
+    /* Estilos para las celdas dentro de la fila */
+    padding: 10px;
+}
+
+
